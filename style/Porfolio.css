@@ -6,7 +6,7 @@
   font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /* shared style */
@@ -28,6 +28,7 @@
     padding:18px 35px ;
     border: radius 5px;
     border: none;
+    text-align: center;
 }
 .section-title{
     font-size: 35px;
@@ -35,8 +36,9 @@
     color:#181818;
 }
 .section-description{
-font: size 18px;
-color: #757575;
+font-size:18px;
+color:#757575;
+font-weight: normal;
 }
 
 /* header */
@@ -105,6 +107,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.main ,section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about style */
 .about{
     border-radius: 10px;
@@ -127,7 +133,80 @@ font-size: 20px;
 
 }
 .item-description{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-
 }
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+gap: 24px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5;
+}
+    
+
+.skills-description{
+    font-size: 18px;
+    text-align left:center;  
+  font-weight: normal;    
+  }
+ skills-title {
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+}
+/* resume section style*/
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 15px;
+}
+.experience-description, .experience-sub-title{
+    color: #2e2929;
+}
+resume hr{
+    margin-top: 30px;
+     margin-bottom: 15px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+/* footer style */
+ footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px ;
+ }
+ .footer-column{
+    width: 50%;
+ }
+ .contact input, textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding:18px 35px ;
+    color:#757575 ;
+    border-radius: 5px;
+    background-color:#fff;
+    border:0;
+ }
+ input[type=submit] {
+    background-color: #FD6E0A;
+    font-weight:bold;
+    font-size: 20px;
+    color: white;
+    padding:18px 35px ;
+    border: radius 5px;
+    border: none;
+    text-align: center;
+  }
